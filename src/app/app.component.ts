@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  templateUrl: "app.component.html"
+  templateUrl: "app.component.html",
+   
 })
 export class AppComponent {
-  value = ', I hate azure so much';
+  Title = "VV Home"
 }
