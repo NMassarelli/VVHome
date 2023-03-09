@@ -1,5 +1,5 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -19,8 +19,12 @@
       "dom"
     ]
   },
+  "exclude": 
+  [ "**/appsettings.json",
+  "**/appsettings.Development.json"]
+  ,
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
 }
