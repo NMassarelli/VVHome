@@ -18,7 +18,6 @@ export class WritingSelectionViewComponent implements OnInit {
     const blobServiceClient = BlobServiceClient.fromConnectionString(AppConfiguration.Setting().azureBlobConnectionString); 
     var batchClient = blobServiceClient.getBlobBatchClient()
 
-    batchClient.
   }
 
 }
