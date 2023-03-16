@@ -9,13 +9,13 @@ import { FontFamilyOptions } from '../Helpers/font-family-options';
 })
 export class TopNavComponent {
 
-   setFontFamilyFromDropdown(selection){
+   setFontFamilyFromDropdown(selection: FontFamilyOptions){
       switch(selection){
         case FontFamilyOptions.OpenDyslexic:
-          document.getElementById("root").style.fontFamily == 'opendyslexic'
+          document.getElementById("root").style.fontFamily = 'opendyslexic'
           break;
         case FontFamilyOptions.SFMono:
-          document.getElementById("root").style.fontFamily == 'SFMono-Regular'
+          document.getElementById("root").style.fontFamily = 'SFMono-Regular'
         break;
         
 
