@@ -1,4 +1,6 @@
+import { style } from '@angular/animations';
 import { Component } from '@angular/core';
+import { FontFamilyOptions } from '../Helpers/font-family-options';
 
 @Component({
   selector: 'app-top-nav',
@@ -7,6 +9,18 @@ import { Component } from '@angular/core';
 })
 export class TopNavComponent {
 
+   setFontFamilyFromDropdown(selection){
+      switch(selection){
+        case FontFamilyOptions.OpenDyslexic:
+          document.getElementById("root").style.fontFamily == 'opendyslexic'
+          break;
+        case FontFamilyOptions.SFMono:
+          document.getElementById("root").style.fontFamily == 'SFMono-Regular'
+        break;
+        
 
+      }
+  }
 
+  
 }
