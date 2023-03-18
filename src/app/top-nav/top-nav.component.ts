@@ -9,8 +9,10 @@ import { FontFamilyOptions } from '../Helpers/font-family-options';
 })
 export class TopNavComponent {
 
-   setFontFamilyFromDropdown(selection: FontFamilyOptions){
-      switch(selection){
+  font:FontFamilyOptions;
+
+   setFontFamilyFromDropdown(){
+      switch(this.font){
         case FontFamilyOptions.OpenDyslexic:
           document.getElementById("root").style.fontFamily = 'opendyslexic'
           break;
