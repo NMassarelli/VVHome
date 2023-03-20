@@ -12,7 +12,7 @@ export class MaterialViewComponent implements OnInit {
 
   ngOnInit() {
     
-      const myDiv = document.querySelector('#myDiv');
+      const myDiv = document.querySelector('#insertedHtml');
      // myDiv.innerHTML = html;
     };
   }
