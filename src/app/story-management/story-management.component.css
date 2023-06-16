@@ -1,0 +1,18 @@
+.root{
+    background-color: black;
+}
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+.container > div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(105, 105, 105);
+    border: 2px solid rgb(79,185,227);
+}
