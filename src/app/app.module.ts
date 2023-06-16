@@ -9,7 +9,7 @@ import { NewsletterModalComponent } from './newsletter-modal/newsletter-modal.co
 import { StoryManagementComponent } from './story-management/story-management.component';
 
 @NgModule({
-  declarations: [AppComponent, LandingPageComponent, TopNavComponent, NewsletterModalComponent, StoryManagementComponent],
+  declarations: [AppComponent, StoryManagementComponent, LandingPageComponent, TopNavComponent],
   imports: [BrowserModule,AppRoutingModule, FormsModule],
   bootstrap: [AppComponent]
 })
